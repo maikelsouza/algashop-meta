@@ -1,12 +1,20 @@
 [submodule "microservices/algashop-ordering"]
 	path = microservices/algashop-ordering
 	url = https://github.com/maikelsouza/algashop-ordering
+	branch = main
 [submodule "algashop-docs"]
 	path = algashop-docs
 	url = https://github.com/maikelsouza/algashop-docs.git
+	branch = main
 [submodule "microservices/billing"]
 	path = microservices/billing
 	url = https://github.com/maikelsouza/algashop-billing.git
+	branch = main
 [submodule "microservices/product-catalog"]
 	path = microservices/product-catalog
 	url = https://github.com/maikelsouza/algashop-product-catalog.git
+	branch = main
+[submodule "template"]
+	path = template
+	url = https://github.com/maikelsouza/ems-algashop-template-inicial.git
+	branch = main
