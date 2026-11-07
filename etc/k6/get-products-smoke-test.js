@@ -7,7 +7,7 @@ export const options = {
 };
 
 export default function() {
-  let res = http.get('https://quickpizza.grafana.com');
+  let res = http.get('https://localhost:8083/api/v1/products');
   check(res, { "status is 200": (res) => res.status === 200 });
   sleep(1);
 }
