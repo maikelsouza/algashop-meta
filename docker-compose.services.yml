@@ -9,6 +9,8 @@ services:
     depends_on:
       algashop-postgres:
         condition: service_healthy
+      algashop-redis:
+        condition: service_started
     deploy:
       resources:
         limits:
